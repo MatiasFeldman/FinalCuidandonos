@@ -1,0 +1,28 @@
+implementacion punto 2 del dominio:
+
+public class Trayecto {
+
+//.....
+	private Integer aproxDemora;
+	
+	calcularDemoraAproxParadas(CalculadorDeDemora: demora) {
+
+		if(paradas.all(parada -> parada.tieneDemora())) {
+			aproxDemora = paradas.sum(parada.calculoAproximado(demora))
+		} else 
+		aproxDemora = calcularTiempoDeDemora(demora);
+
+	}
+	return aproxDemora;
+}
+
+public class Parada {
+	
+//.....
+	private Trayecto trayecto;
+	private Integer minutosDeDemora;
+	calculoAproximado(CalculadorDeDemora demora)
+
+	return demora.calcularTiempoDemora(trayecto) + this.minutosDeDemora;
+}
+
